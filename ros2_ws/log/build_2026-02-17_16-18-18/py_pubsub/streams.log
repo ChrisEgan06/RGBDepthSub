@@ -1,0 +1,22 @@
+[0.422s] Invoking command in '/home/chris-egan/ros2_ws/build/py_pubsub': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chris-egan/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chris-egan/ros2_ws/build/py_pubsub/build --no-deps symlink_data --force
+[0.594s] running develop
+[0.674s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[0.674s]   self.local_index = Environment(self.shadow_path + sys.path)
+[0.691s] running egg_info
+[0.700s] writing py_pubsub.egg-info/PKG-INFO
+[0.700s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.700s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.700s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.700s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.719s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.720s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.730s] running build_ext
+[0.730s] Creating /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+[0.731s] Installing depth_sub script to /home/chris-egan/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.731s] Installing rgb_sub script to /home/chris-egan/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.731s] 
+[0.731s] Installed /home/chris-egan/ros2_ws/build/py_pubsub
+[0.731s] running symlink_data
+[0.731s] symbolically linking /home/chris-egan/ros2_ws/build/py_pubsub/resource/py_pubsub -> /home/chris-egan/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.731s] symbolically linking /home/chris-egan/ros2_ws/build/py_pubsub/package.xml -> /home/chris-egan/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.747s] Invoked command in '/home/chris-egan/ros2_ws/build/py_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chris-egan/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chris-egan/ros2_ws/build/py_pubsub/build --no-deps symlink_data --force

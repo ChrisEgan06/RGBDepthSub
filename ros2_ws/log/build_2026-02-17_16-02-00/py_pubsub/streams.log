@@ -1,0 +1,41 @@
+[0.649s] Invoking command in '/home/chris-egan/ros2_ws/src/py_pubsub': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chris-egan/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/chris-egan/ros2_ws/build/py_pubsub/build install --record /home/chris-egan/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.783s] running egg_info
+[0.783s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.792s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.792s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.792s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.792s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.792s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.792s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.811s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.811s] adding license file 'LICENSE'
+[0.811s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.811s] running build
+[0.811s] running build_py
+[0.811s] creating /home/chris-egan/ros2_ws/build/py_pubsub/build
+[0.811s] creating /home/chris-egan/ros2_ws/build/py_pubsub/build/lib
+[0.811s] creating /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.811s] copying py_pubsub/subscriber_member_function.py -> /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.812s] copying py_pubsub/rgb_subscriber.py -> /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.812s] copying py_pubsub/__init__.py -> /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.812s] running install
+[0.815s] running install_lib
+[0.824s] creating /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.824s] copying /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.824s] copying /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub/rgb_subscriber.py -> /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.824s] copying /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.824s] byte-compiling /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[0.825s] byte-compiling /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/rgb_subscriber.py to rgb_subscriber.cpython-312.pyc
+[0.825s] byte-compiling /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[0.825s] running install_data
+[0.825s] creating /home/chris-egan/ros2_ws/install/py_pubsub/share/ament_index
+[0.826s] creating /home/chris-egan/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.826s] creating /home/chris-egan/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.826s] copying resource/py_pubsub -> /home/chris-egan/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.826s] copying package.xml -> /home/chris-egan/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.826s] running install_egg_info
+[0.835s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[0.836s] running install_scripts
+[0.899s] Installing rgb_sub script to /home/chris-egan/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.899s] writing list of installed files to '/home/chris-egan/ros2_ws/build/py_pubsub/install.log'
+[0.914s] Invoked command in '/home/chris-egan/ros2_ws/src/py_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chris-egan/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/chris-egan/ros2_ws/build/py_pubsub/build install --record /home/chris-egan/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
