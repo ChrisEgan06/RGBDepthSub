@@ -1,0 +1,5 @@
+  File "/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/synched_rgb_depth_subscriber.py", line 92
+    concat = np.concatenate((rgb, np.repeat(depth[..., np.newaxis], repeats=3), axis=2), axis=1)
+                                                                                ^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

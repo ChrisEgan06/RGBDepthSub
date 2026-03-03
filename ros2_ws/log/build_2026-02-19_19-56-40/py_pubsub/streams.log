@@ -1,0 +1,28 @@
+[0.428s] Invoking command in '/home/chris-egan/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chris-egan/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/chris-egan/ros2_ws/build/py_pubsub/build install --record /home/chris-egan/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.568s] running egg_info
+[0.577s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.577s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.577s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.577s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.577s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.597s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.597s] adding license file 'LICENSE'
+[0.597s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.597s] running build_py
+[0.597s] copying py_pubsub/synched_rgb_depth_subscriber.py -> /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.597s] running install
+[0.601s] running install_lib
+[0.611s] copying /home/chris-egan/ros2_ws/build/py_pubsub/build/lib/py_pubsub/synched_rgb_depth_subscriber.py -> /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.611s] byte-compiling /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/synched_rgb_depth_subscriber.py to synched_rgb_depth_subscriber.cpython-312.pyc
+[0.612s] running install_data
+[0.612s] copying package.xml -> /home/chris-egan/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.613s] running install_egg_info
+[0.623s] removing '/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.623s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[0.623s] running install_scripts
+[0.689s] Installing depth_sub script to /home/chris-egan/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.689s] Installing rgb_sub script to /home/chris-egan/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.689s] Installing synch_sub script to /home/chris-egan/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.689s] writing list of installed files to '/home/chris-egan/ros2_ws/build/py_pubsub/install.log'
+[0.703s] Invoked command in '/home/chris-egan/ros2_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chris-egan/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris-egan/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/chris-egan/ros2_ws/build/py_pubsub/build install --record /home/chris-egan/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

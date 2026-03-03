@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
 		'rgb_sub = py_pubsub.rgb_subscriber:main',
 		'depth_sub = py_pubsub.depth_subscriber:main',
+        'synch_sub = py_pubsub.synched_rgb_depth_subscriber:main',
         ],
     },
 )
